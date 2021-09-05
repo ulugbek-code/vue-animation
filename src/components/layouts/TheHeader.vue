@@ -1,6 +1,7 @@
 <template>
   <header>
     <h1>{{ title }}</h1>
+    <p>hello</p>
   </header>
 </template>
 
