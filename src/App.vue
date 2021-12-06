@@ -1,32 +1,20 @@
 <template>
-  <the-header title="Remember Me"></the-header>
-  <the-resources></the-resources>
+  <router-view></router-view>
 </template>
 
 <script>
-import TheHeader from './components/layouts/TheHeader.vue';
-import TheResources from './components/learning-resources/TheResources.vue';
-
-export default {
-  components: {
-    TheHeader,
-    TheResources
-  }
-};
+export default {};
 </script>
 
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-
 * {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-
-html {
-  font-family: 'Roboto', sans-serif;
-}
-
 body {
-  margin: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 </style>
